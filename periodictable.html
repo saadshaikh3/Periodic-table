@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>The periodic table</title>
+    <style type="text/css">
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            color: black;
+            background: yellow;
+        }
+        
+        #tb {
+            margin-top: 20px;
+        }
+        
+        #tb tr td {
+            width: 100px;
+            height: 60px;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        sup {
+            text-align: center;
+            display: block;
+        }
+        
+        #H,
+        #C,
+        #N,
+        #O,
+        #P,
+        #S,
+        #Se {
+            background-color: orange;
+            border: 1px solid black;
+        }
+        
+        #Li,
+        #Na,
+        #K,
+        #Rb,
+        #Cs,
+        #Fr {
+            background-color: lightslategray;
+            border: 1px solid black;
+        }
+        
+        #Be,
+        #Mg,
+        #Ca,
+        #Sr,
+        #Ba,
+        #Ra {
+            background-color: skyblue;
+            border: 1px solid black;
+        }
+        
+        #Sc,
+        #Ti,
+        #V,
+        #Cr,
+        #Mn,
+        #Fe,
+        #Co,
+        #Ni,
+        #Cu,
+        #Zn,
+        #Y,
+        #Zr,
+        #Nb,
+        #Mo,
+        #Tc,
+        #Ru,
+        #Rh,
+        #Pd,
+        #Ag,
+        #Cd,
+        #Hf,
+        #Ta,
+        #W,
+        #Re,
+        #Os,
+        #Ir,
+        #Pt,
+        #Au,
+        #Hg,
+        #Rf,
+        #Db,
+        #Sg,
+        #Bh,
+        #Hs,
+        #Mt,
+        #Ds,
+        #Rg,
+        #Cn {
+            background-color: yellow;
+            border: 1px solid black;
+        }
+        
+        #He,
+        #Ne,
+        #Ar,
+        #Kr,
+        #Xe,
+        #Rn {
+            background-color: rgb(174, 227, 236);
+            border: 1px solid black;
+            color: brown;
+        }
+        
+        #B,
+        #Si,
+        #Ge,
+        #As,
+        #Sb,
+        #Te,
+        #Po {
+            background-color: red;
+            border: 1px solid black;
+        }
+        
+        #F,
+        #Cl,
+        #Br,
+        #I,
+        #At {
+            background-color: palegoldenrod;
+            border: 1px solid black;
+        }
+        
+        #Al,
+        #Ga,
+        #In,
+        #Sn,
+        #Tl,
+        #Pb,
+        #Bi {
+            background-color: green;
+            border: 1px solid black;
+        }
+        
+        #act,
+        #law,
+        #La,
+        #Ce,
+        #Pr,
+        #Nd,
+        #Pm,
+        #Sm,
+        #Eu,
+        #Gd,
+        #Tb,
+        #Dy,
+        #Ho,
+        #Er,
+        #Tm,
+        #Yb,
+        #Lu,
+        #Ac,
+        #Th,
+        #Pa,
+        #U,
+        #Np,
+        #Pu,
+        #Am,
+        #Cm,
+        #Bk,
+        #Cf,
+        #Es,
+        #Fm,
+        #Md,
+        #No,
+        #Lr {
+            background-color: lightgray;
+            border: 1px solid black;
+        }
+        
+        #Nh,
+        #Fl,
+        #Mc,
+        #Lv,
+        #Ts,
+        #Og {
+            border: 1px solid black;
+        }
+        
+        #Cs,
+        #Fr,
+        #Hg,
+        #Ga,
+        #Br {
+            color: blue;
+        }
+        
+        #H,
+        #N,
+        #O,
+        #F,
+        #Cl,
+        #Tc,
+        #Rf,
+        #Db,
+        #Sg,
+        #Bh,
+        #Hs,
+        #Mt,
+        #Ds,
+        #Rg,
+        #Cn,
+        #Pm,
+        #Np,
+        #Pu,
+        #Am,
+        #Cm,
+        #Bk,
+        #Cf,
+        #Es,
+        #Fm,
+        #Md,
+        #No,
+        #Lr {
+            color: brown;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The Periodic Table</h1>
+    <table id="tb">
+        <tr>
+            <td id="H"><sup>1</sup>H</td>
+            <td colspan="16"></td>
+            <td id="He"><sup>2</sup>He</td>
+        </tr>
+        <tr>
+            <td id="Li"><sup>3</sup>Li</td>
+            <td id="Be"><sup>4</sup>Be</td>
+            <td colspan="10" rowspan="2"></td>
+            <td id="B"><sup>5</sup>B</td>
+            <td id="C"><sup>6</sup>C</td>
+            <td id="N"><sup>7</sup>N</td>
+            <td id="O"><sup>8</sup>O</td>
+            <td id="F"><sup>9</sup>F</td>
+            <td id="Ne"><sup>10</sup>Ne</td>
+        </tr>
+        <tr>
+            <td id="Na"><sup>11</sup>Na</td>
+            <td id="Mg"><sup>12</sup>Mg</td>
+            <td id="Al"><sup>13</sup>Al</td>
+            <td id="Si"><sup>14</sup>Si</td>
+            <td id="P"><sup>15</sup>P</td>
+            <td id="S"><sup>16</sup>S</td>
+            <td id="Cl"><sup>17</sup>Cl</td>
+            <td id="Ar"><sup>18</sup>Ar</td>
+        </tr>
+        <tr>
+            <td id="K"><sup>19</sup>K</td>
+            <td id="Ca"><sup>20</sup>Ca</td>
+            <td id="Sc"><sup>21</sup>Sc</td>
+            <td id="Ti"><sup>22</sup>Ti</td>
+            <td id="V"><sup>23</sup>V</td>
+            <td id="Cr"><sup>24</sup>Cr</td>
+            <td id="Mn"><sup>25</sup>Mn</td>
+            <td id="Fe"><sup>26</sup>Fe</td>
+            <td id="Co"><sup>27</sup>Co</td>
+            <td id="Ni"><sup>28</sup>Ni</td>
+            <td id="Cu"><sup>29</sup>Cu</td>
+            <td id="Zn"><sup>30</sup>Zn</td>
+            <td id="Ga"><sup>31</sup>Ga</td>
+            <td id="Ge"><sup>32</sup>Ge</td>
+            <td id="As"><sup>33</sup>As</td>
+            <td id="Se"><sup>34</sup>Se</td>
+            <td id="Br"><sup>35</sup>Br</td>
+            <td id="Kr"><sup>36</sup>Kr</td>
+        </tr>
+        <tr>
+            <td id="Rb"><sup>37</sup>Rb</td>
+            <td id="Sr"><sup>38</sup>Sr</td>
+            <td id="Y"><sup>39</sup>Y</td>
+            <td id="Zr"><sup>40</sup>Zr</td>
+            <td id="Nb"><sup>41</sup>Nb</td>
+            <td id="Mo"><sup>42</sup>Mo</td>
+            <td id="Tc"><sup>43</sup>Tc</td>
+            <td id="Ru"><sup>44</sup>Ru</td>
+            <td id="Rh"><sup>45</sup>Rh</td>
+            <td id="Pd"><sup>46</sup>Pd</td>
+            <td id="Ag"><sup>47</sup>Ag</td>
+            <td id="Cd"><sup>48</sup>Cd</td>
+            <td id="In"><sup>49</sup>In</td>
+            <td id="Sn"><sup>50</sup>Sn</td>
+            <td id="Sb"><sup>51</sup>Sb</td>
+            <td id="Te"><sup>52</sup>Te</td>
+            <td id="I"><sup>53</sup>I</td>
+            <td id="Xe"><sup>54</sup>Xe</td>
+        </tr>
+        <tr>
+            <td id="Cs"><sup>55</sup>Cs</td>
+            <td id="Ba"><sup>56</sup>Ba</td>
+            <td id="law"><sup>57-71</sup></td>
+            <td id="Hf"><sup>72</sup>Hf</td>
+            <td id="Ta"><sup>73</sup>Ta</td>
+            <td id="W"><sup>74</sup>W</td>
+            <td id="Re"><sup>75</sup>Re</td>
+            <td id="Os"><sup>76</sup>Os</td>
+            <td id="Ir"><sup>77</sup>Ir</td>
+            <td id="Pt"><sup>78</sup>Pt</td>
+            <td id="Au"><sup>79</sup>Au</td>
+            <td id="Hg"><sup>80</sup>Hg</td>
+            <td id="Tl"><sup>81</sup>Tl</td>
+            <td id="Pb"><sup>82</sup>Pb</td>
+            <td id="Bi"><sup>83</sup>Bi</td>
+            <td id="Po"><sup>84</sup>Po</td>
+            <td id="At"><sup>85</sup>At</td>
+            <td id="Rn"><sup>86</sup>Rn</td>
+        </tr>
+        <tr>
+            <td id="Fr"><sup>87</sup>Fr</td>
+            <td id="Ra"><sup>88</sup>Ra</td>
+            <td id="act"><sup>89-103</sup></td>
+            <td id="Rf"><sup>104</sup>Rf</td>
+            <td id="Db"><sup>105</sup>Db</td>
+            <td id="Sg"><sup>106</sup>Sg</td>
+            <td id="Bh"><sup>107</sup>Bh</td>
+            <td id="Hs"><sup>108</sup>Hs</td>
+            <td id="Mt"><sup>109</sup>Mt</td>
+            <td id="Ds"><sup>110</sup>Ds</td>
+            <td id="Rg"><sup>111</sup>Rg</td>
+            <td id="Cn"><sup>112</sup>Cn</td>
+            <td id="Nh"><sup>113</sup>Nh</td>
+            <td id="Fl"><sup>114</sup>Fl</td>
+            <td id="Mc"><sup>115</sup>Mc</td>
+            <td id="Lv"><sup>116</sup>Lv</td>
+            <td id="Ts"><sup>117</sup>Ts</td>
+            <td id="Og"><sup>118</sup>Og</td>
+        </tr>
+        <tr>
+            <td colspan=18></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td id="La"><sup>57</sup>La</td>
+            <td id="Ce"><sup>58</sup>Ce</td>
+            <td id="Pr"><sup>59</sup>Pr</td>
+            <td id="Nd"><sup>60</sup>Nd</td>
+            <td id="Pm"><sup>61</sup>Pm</td>
+            <td id="Sm"><sup>62</sup>Sm</td>
+            <td id="Eu"><sup>63</sup>Eu</td>
+            <td id="Gd"><sup>64</sup>Gd</td>
+            <td id="Tb"><sup>65</sup>Tb</td>
+            <td id="Dy"><sup>66</sup>Dy</td>
+            <td id="Ho"><sup>67</sup>Ho</td>
+            <td id="Er"><sup>68</sup>Er</td>
+            <td id="Tm"><sup>69</sup>Tm</td>
+            <td id="Yb"><sup>70</sup>Yb</td>
+            <td id="Lu"><sup>71</sup>Lu</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+            <td id="Ac"><sup>89</sup>Ac</td>
+            <td id="Th"><sup>90</sup>Th</td>
+            <td id="Pa"><sup>91</sup>Pa</td>
+            <td id="U"><sup>92</sup>U</td>
+            <td id="Np"><sup>93</sup>Np</td>
+            <td id="Pu"><sup>94</sup>Pu</td>
+            <td id="Am"><sup>95</sup>Am</td>
+            <td id="Cm"><sup>96</sup>Cm</td>
+            <td id="Bk"><sup>97</sup>Bk</td>
+            <td id="Cf"><sup>98</sup>Cf</td>
+            <td id="Es"><sup>99</sup>Es</td>
+            <td id="Fm"><sup>100</sup>Fm</td>
+            <td id="Md"><sup>101</sup>Md</td>
+            <td id="No"><sup>102</sup>No</td>
+            <td id="Lr"><sup>103</sup>Lr</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+
+</html>
